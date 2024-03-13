@@ -3,6 +3,7 @@ const fs = require('fs');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMessageReactions, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessageReactions, GatewayIntentBits.DirectMessages, GatewayIntentBits.DirectMessageTyping], partials: [Partials.Message, Partials.Channel, Partials.Reaction, Partials.Reaction] });
 const { Events } = require("discord.js")
 const { Orange, Error, SkyBlue, Success } = require('embedstyles')
+console.log(process.env.TOKEN);
 
 client.commands = new Collection();
 
