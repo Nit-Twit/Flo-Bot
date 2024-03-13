@@ -1,0 +1,19 @@
+{
+  "name": "utilcord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "embedstyles": "^1.0.0",
+    "jquery": "^3.7.0",
+    "jsdom": "^22.1.0",
+    "mongoose": "^6.0.2"
+  }
+}
