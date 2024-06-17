@@ -14,7 +14,7 @@ module.exports = {
             .setFooter({ text: 'Bot by NitTwit' })
             .setTimestamp()
             .setTitle('About Flo:')
-            .setDescription(`Hello, <@989924991535566879> here. I created Flo as a way to reduce the number of bots required for a single server. Along with me and <@413103185633214464>, we work to make Flo a neat and organized bot. Flo is currently serving **${servercount}** users across **${client.guilds.cache.size}** servers.`)
+            .setDescription(`Hello, nittwit here. I created this bot as a way to reduce the number of bots required for a single server. Utilcord is constantly being worked on to become a more neat and organized bot. Utilcord is currently serving **${servercount}** users across **${client.guilds.cache.size}** servers.`)
 
         const button = new ActionRowBuilder()
             .addComponents(

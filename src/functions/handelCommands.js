@@ -3,7 +3,7 @@ const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 require('dotenv').config();
 
-const clientId = '1191553281651118090'; 
+const clientId = '1124437696224428163'; 
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
